@@ -128,12 +128,34 @@ fn main() {
 
 ## Q6
 
-Will this code compile ?
-```
-fn main() {
+Will this code compile ? ``` fn main() {
     let mut a = String::from("hello");
     
     let mut b = a;    
+
+    println!("{}", b);
+    b.push('!');
+    println!("{}", b);
+
+    println!("{}", a);
+    a.push('!');
+    println!("{}", a); 
+}
+```
+
+<details>
+<summary>Answer :</summary>
+
+ * No
+
+</details>
+
+## Q7
+
+Will this code compile ? ``` fn main() {
+    let mut a = String::from("hello");
+    
+    let mut b = a.clone();
 
     println!("{}", b);
     b.push('!');
