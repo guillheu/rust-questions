@@ -122,7 +122,33 @@ fn main() {
 <details>
 <summary>Answer :</summary>
 
- * Yes
+ * No
+
+</details>
+
+## Q6
+
+Will this code compile ?
+```
+fn main() {
+    let mut a = String::from("hello");
+    
+    let mut b = a;    
+
+    println!("{}", b);
+    b.push('!');
+    println!("{}", b);
+
+    println!("{}", a);
+    a.push('!');
+    println!("{}", a); 
+}
+```
+
+<details>
+<summary>Answer :</summary>
+
+ * No
 
 </details>
 
