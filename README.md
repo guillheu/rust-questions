@@ -67,7 +67,8 @@ fn main() {
     println!("{}", b);
     b.push('!');
     println!("{}", b);
-}```
+}
+```
 
 <details>
 <summary>Answer :</summary>
@@ -79,6 +80,7 @@ fn main() {
 ## Q4
 
 Will this code compile ?
+
 ```
 fn main() {
     let a = String::from("hello");
@@ -88,7 +90,8 @@ fn main() {
     println!("{}", b);
     b.push('!');
     println!("{}", b);
-}```
+}
+```
 
 <details>
 <summary>Answer :</summary>
@@ -113,7 +116,8 @@ fn main() {
     println!("{}", a);
     a.push('!');
     println!("{}", a); 
-}```
+}
+```
 
 <details>
 <summary>Answer :</summary>
