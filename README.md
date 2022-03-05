@@ -6,6 +6,7 @@ fn main() {
     let mut a = 7;
     
     let b = &mut a;     
+
     println!("{}", b);
     *b += 1;
     println!("{}", b);
@@ -31,6 +32,7 @@ fn main() {
     let mut a = 7;
     
     let b = &mut a;     
+
     println!("{}", b);
     *b += 1;
     println!("{}", b);
@@ -38,6 +40,11 @@ fn main() {
     println!("{}", a);
     a += 1;
     println!("{}", a);
+
+
+    println!("{}", b);
+    *b += 1;
+    println!("{}", b);
 }
 ```
 
